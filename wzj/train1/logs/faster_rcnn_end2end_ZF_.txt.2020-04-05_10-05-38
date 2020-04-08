@@ -1,0 +1,11 @@
++ echo Logging output to logs/faster_rcnn_end2end_ZF_.txt.2020-04-05_10-05-38
+Logging output to logs/faster_rcnn_end2end_ZF_.txt.2020-04-05_10-05-38
++ ./train_net.py --gpu 0 --solver solver.prototxt --weights snapshot/ZF.v2.caffemodel --imdb voc_2007_trainval --iters 70000 --cfg faster_rcnn_end2end.yml
+  File "./train_net.py", line 63
+    print 'Loaded dataset `{:s}` for training'.format(imdb.name)
+                                             ^
+SyntaxError: invalid syntax
+
+real	0m0.045s
+user	0m0.041s
+sys	0m0.004s

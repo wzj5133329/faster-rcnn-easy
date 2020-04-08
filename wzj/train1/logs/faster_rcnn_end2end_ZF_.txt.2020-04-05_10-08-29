@@ -1,0 +1,11 @@
++ echo Logging output to logs/faster_rcnn_end2end_ZF_.txt.2020-04-05_10-08-29
+Logging output to logs/faster_rcnn_end2end_ZF_.txt.2020-04-05_10-08-29
++ python2 ./train_net.py --gpu 0 --solver solver.prototxt --weights snapshot/ZF.v2.caffemodel --imdb voc_2007_trainval --iters 70000 --cfg faster_rcnn_end2end.yml
+Traceback (most recent call last):
+  File "./train_net.py", line 12, in <module>
+    import _init_paths
+ImportError: No module named _init_paths
+
+real	0m0.024s
+user	0m0.023s
+sys	0m0.000s

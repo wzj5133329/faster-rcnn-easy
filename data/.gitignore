@@ -1,0 +1,7 @@
+selective_search*
+imagenet_models/*
+faster_rcnn_models/*
+VOCdevkit*
+cache
+scripts/*.zip
+scripts/*.tgz
